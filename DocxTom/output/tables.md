@@ -1,8 +1,8 @@
 # 表格索引
 
-<a name="table-1"></a>
+<a name="c00t01"></a>
 
-### 表 1
+### [C00T01](./Untitled.md)
 
 | 文件名稱 | 銀行核心現代化計畫－系統整合及計畫管理專業服務建置案<br>SD文件-06(利率議價) | 銀行核心現代化計畫－系統整合及計畫管理專業服務建置案<br>SD文件-06(利率議價) | 銀行核心現代化計畫－系統整合及計畫管理專業服務建置案<br>SD文件-06(利率議價) |
 |---|---|---|---|
@@ -18,9 +18,9 @@
 
 ---
 
-<a name="table-2"></a>
+<a name="c02t01"></a>
 
-### 表 2
+### [C02T01](./1.1%20合約維護.md)
 
 | 關係人限額組件-檢核利害關係人身份(規格請參考1.1.1.4.II.i) | 關係人限額組件-檢核利害關係人身份(規格請參考1.1.1.4.II.i) |
 |---|---|
@@ -29,9 +29,9 @@
 
 ---
 
-<a name="table-3"></a>
+<a name="c02t02"></a>
 
-### 表 3
+### [C02T02](./1.1%20合約維護.md)
 
 | MIM-87 Get latest Interest rate(規格請參考1.1.1.4.II.ii) | MIM-87 Get latest Interest rate(規格請參考1.1.1.4.II.ii) |
 |---|---|
@@ -40,42 +40,9 @@
 
 ---
 
-<a name="table-4"></a>
+<a name="c02t03"></a>
 
-### 表 4
-
-| BBP-45 Get a specific Configurable Parameter record(規格請參考1.1.1.4.II.iii) | BBP-45 Get a specific Configurable Parameter record(規格請參考1.1.1.4.II.iii) |
-|---|---|
-| Request | 查詢參數（parameter=126 base currency）、applicability=4、applicability-entity=GBANKOU001 |
-| Response | 基幣幣別 |
-
----
-
-<a name="table-5"></a>
-
-### 表 5
-
-| MIM-21 Fetch exchange rates for a given date(規格請參考1.1.1.4.II.iv) | MIM-21 Fetch exchange rates for a given date(規格請參考1.1.1.4.II.iv) |
-|---|---|
-| Request | 輸入幣別、參數幣別（基幣）、日期、時間、匯率類型=即期成本 |
-| Response | 匯率中價 |
-
----
-
-<a name="table-6"></a>
-
-### 表 6
-
-| MIM 交叉幣別試算API（以 GBP 最終實作為準）(規格請參考1.1.1.4.II.v) | MIM 交叉幣別試算API（以 GBP 最終實作為準）(規格請參考1.1.1.4.II.v) |
-|---|---|
-| Request | 買賣別＝S、交易幣別＝輸入幣別、交易金額＝承作金額、對方幣別＝參數幣別（基幣）、匯率類型-成本＝中價 |
-| Response | 報價金額 |
-
----
-
-<a name="table-7"></a>
-
-### 表 7
+### [C02T03](./1.1%20合約維護.md)
 
 | BBP-45 Get a specific Configurable Parameter record(規格請參考1.1.1.4.II.iii) | BBP-45 Get a specific Configurable Parameter record(規格請參考1.1.1.4.II.iii) |
 |---|---|
@@ -84,9 +51,9 @@
 
 ---
 
-<a name="table-8"></a>
+<a name="c02t04"></a>
 
-### 表 8
+### [C02T04](./1.1%20合約維護.md)
 
 | MIM-21 Fetch exchange rates for a given date(規格請參考1.1.1.4.II.iv) | MIM-21 Fetch exchange rates for a given date(規格請參考1.1.1.4.II.iv) |
 |---|---|
@@ -95,9 +62,9 @@
 
 ---
 
-<a name="table-9"></a>
+<a name="c02t05"></a>
 
-### 表 9
+### [C02T05](./1.1%20合約維護.md)
 
 | MIM 交叉幣別試算API（以 GBP 最終實作為準）(規格請參考1.1.1.4.II.v) | MIM 交叉幣別試算API（以 GBP 最終實作為準）(規格請參考1.1.1.4.II.v) |
 |---|---|
@@ -106,9 +73,9 @@
 
 ---
 
-<a name="table-10"></a>
+<a name="c02t06"></a>
 
-### 表 10
+### [C02T06](./1.1%20合約維護.md)
 
 | BBP-45 Get a specific Configurable Parameter record(規格請參考1.1.1.4.II.iii) | BBP-45 Get a specific Configurable Parameter record(規格請參考1.1.1.4.II.iii) |
 |---|---|
@@ -117,9 +84,9 @@
 
 ---
 
-<a name="table-11"></a>
+<a name="c02t07"></a>
 
-### 表 11
+### [C02T07](./1.1%20合約維護.md)
 
 | MIM-21 Fetch exchange rates for a given date(規格請參考1.1.1.4.II.iv) | MIM-21 Fetch exchange rates for a given date(規格請參考1.1.1.4.II.iv) |
 |---|---|
@@ -128,9 +95,9 @@
 
 ---
 
-<a name="table-12"></a>
+<a name="c02t08"></a>
 
-### 表 12
+### [C02T08](./1.1%20合約維護.md)
 
 | MIM 交叉幣別試算API（以 GBP 最終實作為準）(規格請參考1.1.1.4.II.v) | MIM 交叉幣別試算API（以 GBP 最終實作為準）(規格請參考1.1.1.4.II.v) |
 |---|---|
@@ -139,9 +106,42 @@
 
 ---
 
-<a name="table-13"></a>
+<a name="c02t09"></a>
 
-### 表格 1.1.1.3.1 異動的資料表
+### [C02T09](./1.1%20合約維護.md)
+
+| BBP-45 Get a specific Configurable Parameter record(規格請參考1.1.1.4.II.iii) | BBP-45 Get a specific Configurable Parameter record(規格請參考1.1.1.4.II.iii) |
+|---|---|
+| Request | 查詢參數（parameter=126 base currency）、applicability=4、applicability-entity=GBANKOU001 |
+| Response | 基幣幣別 |
+
+---
+
+<a name="c02t10"></a>
+
+### [C02T10](./1.1%20合約維護.md)
+
+| MIM-21 Fetch exchange rates for a given date(規格請參考1.1.1.4.II.iv) | MIM-21 Fetch exchange rates for a given date(規格請參考1.1.1.4.II.iv) |
+|---|---|
+| Request | 輸入幣別、參數幣別（基幣）、日期、時間、匯率類型=即期成本 |
+| Response | 匯率中價 |
+
+---
+
+<a name="c02t11"></a>
+
+### [C02T11](./1.1%20合約維護.md)
+
+| MIM 交叉幣別試算API（以 GBP 最終實作為準）(規格請參考1.1.1.4.II.v) | MIM 交叉幣別試算API（以 GBP 最終實作為準）(規格請參考1.1.1.4.II.v) |
+|---|---|
+| Request | 買賣別＝S、交易幣別＝輸入幣別、交易金額＝承作金額、對方幣別＝參數幣別（基幣）、匯率類型-成本＝中價 |
+| Response | 報價金額 |
+
+---
+
+<a name="c02t12"></a>
+
+### [C02T12 表格 1.1.1.3.1 異動的資料表](./1.1%20合約維護.md)
 
 | 資料表英文名稱 | 資料表中文名稱 | 操作類型 | 說明 |
 |---|---|---|---|
@@ -153,9 +153,9 @@
 
 ---
 
-<a name="table-14"></a>
+<a name="c02t13"></a>
 
-### 表格 1.1.1.3.2 建立新的利率議價合約tb_deposit_interest_contract (Insert)
+### [C02T13 表格 1.1.1.3.2 建立新的利率議價合約tb_deposit_interest_contract (Insert)](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -188,9 +188,9 @@
 
 ---
 
-<a name="table-15"></a>
+<a name="c02t14"></a>
 
-### 表格 1.1.1.3.3 查詢分行權限相關參數tb_customer_branch_setting (Select)
+### [C02T14 表格 1.1.1.3.3 查詢分行權限相關參數tb_customer_branch_setting (Select)](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -203,9 +203,9 @@
 
 ---
 
-<a name="table-16"></a>
+<a name="c02t15"></a>
 
-### 表格 1.1.1.3.4 查詢FTP利率加減碼範圍 tb_ftp_range_setting (Select)
+### [C02T15 表格 1.1.1.3.4 查詢FTP利率加減碼範圍 tb_ftp_range_setting (Select)](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -217,9 +217,9 @@
 
 ---
 
-<a name="table-17"></a>
+<a name="c02t16"></a>
 
-### 表格 1.1.1.3.5 查詢各幣別最高承作利率上限tb_max_interest_setting (Select)
+### [C02T16 表格 1.1.1.3.5 查詢各幣別最高承作利率上限tb_max_interest_setting (Select)](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -233,9 +233,9 @@
 
 ---
 
-<a name="table-18"></a>
+<a name="c02t17"></a>
 
-### 表格 1.1.1.3.6 查詢合約基幣承作金額資料tb_deposit_interest_contract (Select)
+### [C02T17 表格 1.1.1.3.6 查詢合約基幣承作金額資料tb_deposit_interest_contract (Select)](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 (Description) | 備註 (Remarks) |
 |---|---|---|---|
@@ -248,9 +248,9 @@
 
 ---
 
-<a name="table-19"></a>
+<a name="c02t18"></a>
 
-### 表 19
+### [C02T18](./1.1%20合約維護.md)
 
 | API 代碼 | API 名稱 | 功能說明 | 目標系統 |
 |---|---|---|---|
@@ -262,9 +262,9 @@
 
 ---
 
-<a name="table-20"></a>
+<a name="c02t19"></a>
 
-### 表 20
+### [C02T19](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -273,9 +273,9 @@
 
 ---
 
-<a name="table-21"></a>
+<a name="c02t20"></a>
 
-### 表 21
+### [C02T20](./1.1%20合約維護.md)
 
 | 目標欄位 | 內部對應欄位 | 說明 | 備註 |
 |---|---|---|---|
@@ -284,9 +284,9 @@
 
 ---
 
-<a name="table-22"></a>
+<a name="c02t21"></a>
 
-### 表 22
+### [C02T21](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -299,9 +299,9 @@
 
 ---
 
-<a name="table-23"></a>
+<a name="c02t22"></a>
 
-### 表 23
+### [C02T22](./1.1%20合約維護.md)
 
 | 目標欄位 | 內部對應欄位 | 說明 (Description) | 備註 (Remarks) |
 |---|---|---|---|
@@ -309,9 +309,9 @@
 
 ---
 
-<a name="table-24"></a>
+<a name="c02t23"></a>
 
-### 表 24
+### [C02T23](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -321,9 +321,9 @@
 
 ---
 
-<a name="table-25"></a>
+<a name="c02t24"></a>
 
-### 表 25
+### [C02T24](./1.1%20合約維護.md)
 
 | 目標欄位 | 內部對應欄位 | 說明 (Description) | 備註 (Remarks) |
 |---|---|---|---|
@@ -333,9 +333,9 @@
 
 ---
 
-<a name="table-26"></a>
+<a name="c02t25"></a>
 
-### 表 26
+### [C02T25](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -349,9 +349,9 @@
 
 ---
 
-<a name="table-27"></a>
+<a name="c02t26"></a>
 
-### 表 27
+### [C02T26](./1.1%20合約維護.md)
 
 | 目標欄位 | 內部對應欄位 | 說明 (Description) | 備註 (Remarks) |
 |---|---|---|---|
@@ -359,9 +359,9 @@
 
 ---
 
-<a name="table-28"></a>
+<a name="c02t27"></a>
 
-### 表 28
+### [C02T27](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -376,9 +376,9 @@
 
 ---
 
-<a name="table-29"></a>
+<a name="c02t28"></a>
 
-### 表 29
+### [C02T28](./1.1%20合約維護.md)
 
 | 目標欄位 | 內部對應欄位 | 說明 (Description) | 備註 (Remarks) |
 |---|---|---|---|
@@ -386,9 +386,9 @@
 
 ---
 
-<a name="table-30"></a>
+<a name="c02t29"></a>
 
-### 表格 1.1.2.3.1 異動的資料表
+### [C02T29 表格 1.1.2.3.1 異動的資料表](./1.1%20合約維護.md)
 
 | 資料表英文名稱 | 資料表中文名稱 | 操作類型 | 說明 |
 |---|---|---|---|
@@ -398,9 +398,9 @@
 
 ---
 
-<a name="table-31"></a>
+<a name="c02t30"></a>
 
-### 表格 1.1.2.3.2 查詢合約狀態檢核tb_deposit_interest_contract (Select)
+### [C02T30 表格 1.1.2.3.2 查詢合約狀態檢核tb_deposit_interest_contract (Select)](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 (Description) | 備註 (Remarks) |
 |---|---|---|---|
@@ -411,9 +411,9 @@
 
 ---
 
-<a name="table-32"></a>
+<a name="c02t31"></a>
 
-### 表格 1.1.2.3.3 更新合約狀態tb_deposit_interest_contract (Update)
+### [C02T31 表格 1.1.2.3.3 更新合約狀態tb_deposit_interest_contract (Update)](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -426,9 +426,9 @@
 
 ---
 
-<a name="table-33"></a>
+<a name="c02t32"></a>
 
-### 表 33
+### [C02T32](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -440,9 +440,9 @@
 
 ---
 
-<a name="table-34"></a>
+<a name="c02t33"></a>
 
-### 表 34
+### [C02T33](./1.1%20合約維護.md)
 
 | 關係人限額組件-檢核利害關係人身份(規格請參考1.1.3.4.II.i) | 關係人限額組件-檢核利害關係人身份(規格請參考1.1.3.4.II.i) |  |
 |---|---|---|
@@ -451,9 +451,9 @@
 
 ---
 
-<a name="table-35"></a>
+<a name="c02t34"></a>
 
-### 表 35
+### [C02T34](./1.1%20合約維護.md)
 
 | MIM-87 Get latest Interest rate(規格請參考1.1.3.4.II.ii) | MIM-87 Get latest Interest rate(規格請參考1.1.3.4.II.ii) |
 |---|---|
@@ -462,42 +462,9 @@
 
 ---
 
-<a name="table-36"></a>
+<a name="c02t35"></a>
 
-### 表 36
-
-| BBP-45 Get a specific Configurable Parameter record(規格請參考1.1.3.4.II.iii) | BBP-45 Get a specific Configurable Parameter record(規格請參考1.1.3.4.II.iii) |
-|---|---|
-| Request | 查詢參數（parameter=126 base currency）、applicability=4、applicability-entity=GBANKOU001 |
-| Response | 基幣幣別 |
-
----
-
-<a name="table-37"></a>
-
-### 表 37
-
-| MIM-21 Fetch exchange rates for a given date(規格請參考1.1.3.4.II.iv) | MIM-21 Fetch exchange rates for a given date(規格請參考1.1.3.4.II.iv) |
-|---|---|
-| Request | 輸入幣別、參數幣別（基幣）、日期、時間、匯率類型=即期成本 |
-| Response | 匯率中價 |
-
----
-
-<a name="table-38"></a>
-
-### 表 38
-
-| MIM 交叉幣別試算API（以 GBP 最終實作為準）(規格請參考1.1.3.4.II.v) | MIM 交叉幣別試算API（以 GBP 最終實作為準）(規格請參考1.1.3.4.II.v) |
-|---|---|
-| Request | 買賣別＝S、交易幣別＝輸入幣別、交易金額＝承作金額、對方幣別＝參數幣別（基幣）、匯率類型-成本＝中價 |
-| Response | 報價金額 |
-
----
-
-<a name="table-39"></a>
-
-### 表 39
+### [C02T35](./1.1%20合約維護.md)
 
 | BBP-45 Get a specific Configurable Parameter record(規格請參考1.1.3.4.II.iii) | BBP-45 Get a specific Configurable Parameter record(規格請參考1.1.3.4.II.iii) |
 |---|---|
@@ -506,9 +473,9 @@
 
 ---
 
-<a name="table-40"></a>
+<a name="c02t36"></a>
 
-### 表 40
+### [C02T36](./1.1%20合約維護.md)
 
 | MIM-21 Fetch exchange rates for a given date(規格請參考1.1.3.4.II.iv) | MIM-21 Fetch exchange rates for a given date(規格請參考1.1.3.4.II.iv) |
 |---|---|
@@ -517,9 +484,9 @@
 
 ---
 
-<a name="table-41"></a>
+<a name="c02t37"></a>
 
-### 表 41
+### [C02T37](./1.1%20合約維護.md)
 
 | MIM 交叉幣別試算API（以 GBP 最終實作為準）(規格請參考1.1.3.4.II.v) | MIM 交叉幣別試算API（以 GBP 最終實作為準）(規格請參考1.1.3.4.II.v) |
 |---|---|
@@ -528,9 +495,9 @@
 
 ---
 
-<a name="table-42"></a>
+<a name="c02t38"></a>
 
-### 表 42
+### [C02T38](./1.1%20合約維護.md)
 
 | BBP-45 Get a specific Configurable Parameter record(規格請參考1.1.3.4.II.iii) | BBP-45 Get a specific Configurable Parameter record(規格請參考1.1.3.4.II.iii) |
 |---|---|
@@ -539,9 +506,9 @@
 
 ---
 
-<a name="table-43"></a>
+<a name="c02t39"></a>
 
-### 表 43
+### [C02T39](./1.1%20合約維護.md)
 
 | MIM-21 Fetch exchange rates for a given date(規格請參考1.1.3.4.II.iv) | MIM-21 Fetch exchange rates for a given date(規格請參考1.1.3.4.II.iv) |
 |---|---|
@@ -550,9 +517,9 @@
 
 ---
 
-<a name="table-44"></a>
+<a name="c02t40"></a>
 
-### 表 44
+### [C02T40](./1.1%20合約維護.md)
 
 | MIM 交叉幣別試算API（以 GBP 最終實作為準）(規格請參考1.1.3.4.II.v) | MIM 交叉幣別試算API（以 GBP 最終實作為準）(規格請參考1.1.3.4.II.v) |
 |---|---|
@@ -561,9 +528,42 @@
 
 ---
 
-<a name="table-45"></a>
+<a name="c02t41"></a>
 
-### 表格 1.1.3.3.1 異動的資料表
+### [C02T41](./1.1%20合約維護.md)
+
+| BBP-45 Get a specific Configurable Parameter record(規格請參考1.1.3.4.II.iii) | BBP-45 Get a specific Configurable Parameter record(規格請參考1.1.3.4.II.iii) |
+|---|---|
+| Request | 查詢參數（parameter=126 base currency）、applicability=4、applicability-entity=GBANKOU001 |
+| Response | 基幣幣別 |
+
+---
+
+<a name="c02t42"></a>
+
+### [C02T42](./1.1%20合約維護.md)
+
+| MIM-21 Fetch exchange rates for a given date(規格請參考1.1.3.4.II.iv) | MIM-21 Fetch exchange rates for a given date(規格請參考1.1.3.4.II.iv) |
+|---|---|
+| Request | 輸入幣別、參數幣別（基幣）、日期、時間、匯率類型=即期成本 |
+| Response | 匯率中價 |
+
+---
+
+<a name="c02t43"></a>
+
+### [C02T43](./1.1%20合約維護.md)
+
+| MIM 交叉幣別試算API（以 GBP 最終實作為準）(規格請參考1.1.3.4.II.v) | MIM 交叉幣別試算API（以 GBP 最終實作為準）(規格請參考1.1.3.4.II.v) |
+|---|---|
+| Request | 買賣別＝S、交易幣別＝輸入幣別、交易金額＝承作金額、對方幣別＝參數幣別（基幣）、匯率類型-成本＝中價 |
+| Response | 報價金額 |
+
+---
+
+<a name="c02t44"></a>
+
+### [C02T44 表格 1.1.3.3.1 異動的資料表](./1.1%20合約維護.md)
 
 | 資料表英文名稱 | 資料表中文名稱 | 操作類型 | 說明 |
 |---|---|---|---|
@@ -576,9 +576,9 @@
 
 ---
 
-<a name="table-46"></a>
+<a name="c02t45"></a>
 
-### 表格 1.1.3.3.2 查詢原合約資料tb_deposit_interest_contract (Select)
+### [C02T45 表格 1.1.3.3.2 查詢原合約資料tb_deposit_interest_contract (Select)](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 (Description) | 備註 (Remarks) |
 |---|---|---|---|
@@ -593,9 +593,9 @@
 
 ---
 
-<a name="table-47"></a>
+<a name="c02t46"></a>
 
-### 表 47
+### [C02T46](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -629,9 +629,9 @@
 
 ---
 
-<a name="table-48"></a>
+<a name="c02t47"></a>
 
-### 表格  1.1.3.3.4檢核合約是否已使用tb_deposit_interest_quota_usage (Select)
+### [C02T47 表格  1.1.3.3.4檢核合約是否已使用tb_deposit_interest_quota_usage (Select)](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -643,9 +643,9 @@
 
 ---
 
-<a name="table-49"></a>
+<a name="c02t48"></a>
 
-### 表格  1.1.3.3.5 查詢客戶與分行承作上限參數tb_customer_branch_setting (Select)
+### [C02T48 表格  1.1.3.3.5 查詢客戶與分行承作上限參數tb_customer_branch_setting (Select)](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -658,9 +658,9 @@
 
 ---
 
-<a name="table-50"></a>
+<a name="c02t49"></a>
 
-### 表格 1.1.3.3.6 查詢FTP利率加減碼範圍參數tb_ftp_range_setting (Select)
+### [C02T49 表格 1.1.3.3.6 查詢FTP利率加減碼範圍參數tb_ftp_range_setting (Select)](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -672,9 +672,9 @@
 
 ---
 
-<a name="table-51"></a>
+<a name="c02t50"></a>
 
-### 表格  1.1.3.3.7 查詢各幣別最高承作利率上限tb_max_interest_setting (Select)
+### [C02T50 表格  1.1.3.3.7 查詢各幣別最高承作利率上限tb_max_interest_setting (Select)](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -688,9 +688,9 @@
 
 ---
 
-<a name="table-52"></a>
+<a name="c02t51"></a>
 
-### 表 52
+### [C02T51](./1.1%20合約維護.md)
 
 | API 代碼 | API 名稱 | 功能說明 | 目標系統 |
 |---|---|---|---|
@@ -702,9 +702,9 @@
 
 ---
 
-<a name="table-53"></a>
+<a name="c02t52"></a>
 
-### 表 53
+### [C02T52](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -713,9 +713,9 @@
 
 ---
 
-<a name="table-54"></a>
+<a name="c02t53"></a>
 
-### 表 54
+### [C02T53](./1.1%20合約維護.md)
 
 | 目標欄位 | 內部對應欄位 | 說明 | 備註 |
 |---|---|---|---|
@@ -724,9 +724,9 @@
 
 ---
 
-<a name="table-55"></a>
+<a name="c02t54"></a>
 
-### 表 55
+### [C02T54](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -739,9 +739,9 @@
 
 ---
 
-<a name="table-56"></a>
+<a name="c02t55"></a>
 
-### 表 56
+### [C02T55](./1.1%20合約維護.md)
 
 | 目標欄位 | 內部對應欄位 | 說明 (Description) | 備註 (Remarks) |
 |---|---|---|---|
@@ -749,9 +749,9 @@
 
 ---
 
-<a name="table-57"></a>
+<a name="c02t56"></a>
 
-### 表 57
+### [C02T56](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -761,9 +761,9 @@
 
 ---
 
-<a name="table-58"></a>
+<a name="c02t57"></a>
 
-### 表 58
+### [C02T57](./1.1%20合約維護.md)
 
 | 目標欄位 | 內部對應欄位 | 說明 (Description) | 備註 (Remarks) |
 |---|---|---|---|
@@ -773,9 +773,9 @@
 
 ---
 
-<a name="table-59"></a>
+<a name="c02t58"></a>
 
-### 表 59
+### [C02T58](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -789,9 +789,9 @@
 
 ---
 
-<a name="table-60"></a>
+<a name="c02t59"></a>
 
-### 表 60
+### [C02T59](./1.1%20合約維護.md)
 
 | 目標欄位 | 內部對應欄位 | 說明 (Description) | 備註 (Remarks) |
 |---|---|---|---|
@@ -799,9 +799,9 @@
 
 ---
 
-<a name="table-61"></a>
+<a name="c02t60"></a>
 
-### 表 61
+### [C02T60](./1.1%20合約維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -816,9 +816,9 @@
 
 ---
 
-<a name="table-62"></a>
+<a name="c02t61"></a>
 
-### 表 62
+### [C02T61](./1.1%20合約維護.md)
 
 | 目標欄位 | 內部對應欄位 | 說明 (Description) | 備註 (Remarks) |
 |---|---|---|---|
@@ -826,9 +826,9 @@
 
 ---
 
-<a name="table-63"></a>
+<a name="c03t01"></a>
 
-### 表格 1.2.1.3.1 異動的資料表
+### [C03T01 表格 1.2.1.3.1 異動的資料表](./1.2%20合約查詢.md)
 
 | 資料表英文名稱 | 資料表中文名稱 | 操作類型 | 說明 |
 |---|---|---|---|
@@ -837,9 +837,9 @@
 
 ---
 
-<a name="table-64"></a>
+<a name="c03t02"></a>
 
-### 表格 1.2.1.3.2查詢利率議價合約紀錄tb_deposit_interest_contract (Select)
+### [C03T02 表格 1.2.1.3.2查詢利率議價合約紀錄tb_deposit_interest_contract (Select)](./1.2%20合約查詢.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -886,9 +886,9 @@
 
 ---
 
-<a name="table-65"></a>
+<a name="c03t03"></a>
 
-### 表格 1.2.1.3.3 查詢額度使用狀況tb_deposit_interest_quota_usage (Select)
+### [C03T03 表格 1.2.1.3.3 查詢額度使用狀況tb_deposit_interest_quota_usage (Select)](./1.2%20合約查詢.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -901,9 +901,9 @@
 
 ---
 
-<a name="table-66"></a>
+<a name="c04t01"></a>
 
-### 表 66
+### [C04T01](./1.3%20議價額度維護.md)
 
 | 數位通知組件 – 發送外部通知 | 數位通知組件 – 發送外部通知 |
 |---|---|
@@ -912,9 +912,9 @@
 
 ---
 
-<a name="table-67"></a>
+<a name="c04t02"></a>
 
-### 表格 1.3.1.3.1 異動的資料表
+### [C04T02 表格 1.3.1.3.1 異動的資料表](./1.3%20議價額度維護.md)
 
 | 資料表英文名稱 | 資料表中文名稱 | 操作類型 | 說明 |
 |---|---|---|---|
@@ -924,9 +924,9 @@
 
 ---
 
-<a name="table-68"></a>
+<a name="c04t03"></a>
 
-### 表 68
+### [C04T03](./1.3%20議價額度維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -940,9 +940,9 @@
 
 ---
 
-<a name="table-69"></a>
+<a name="c04t04"></a>
 
-### 表 69
+### [C04T04](./1.3%20議價額度維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -953,9 +953,9 @@
 
 ---
 
-<a name="table-70"></a>
+<a name="c04t05"></a>
 
-### 表格 1.3.1.3.4 新增額度使用明細 tb_deposit_interest_quota_usage (Insert)
+### [C04T05 表格 1.3.1.3.4 新增額度使用明細 tb_deposit_interest_quota_usage (Insert)](./1.3%20議價額度維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -970,9 +970,9 @@
 
 ---
 
-<a name="table-71"></a>
+<a name="c04t06"></a>
 
-### 表格 1.3.2.3.1 異動的資料表
+### [C04T06 表格 1.3.2.3.1 異動的資料表](./1.3%20議價額度維護.md)
 
 | 資料表英文名稱 | 資料表中文名稱 | 操作類型 | 說明 |
 |---|---|---|---|
@@ -981,9 +981,9 @@
 
 ---
 
-<a name="table-72"></a>
+<a name="c04t07"></a>
 
-### 表格 1.3.2.3.2 查詢交易明細是否存在 tb_deposit_interest_quota_usage (Select)
+### [C04T07 表格 1.3.2.3.2 查詢交易明細是否存在 tb_deposit_interest_quota_usage (Select)](./1.3%20議價額度維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -992,9 +992,9 @@
 
 ---
 
-<a name="table-73"></a>
+<a name="c04t08"></a>
 
-### 表 73
+### [C04T08](./1.3%20議價額度維護.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -1005,9 +1005,9 @@
 
 ---
 
-<a name="table-74"></a>
+<a name="c05t01"></a>
 
-### 表格 1.4.1.3.1 異動的資料表
+### [C05T01 表格 1.4.1.3.1 異動的資料表](./1.4%20議價額度查詢.md)
 
 | 資料表英文名稱 | 資料表中文名稱 | 操作類型 | 說明 |
 |---|---|---|---|
@@ -1016,9 +1016,9 @@
 
 ---
 
-<a name="table-75"></a>
+<a name="c05t02"></a>
 
-### 表 75
+### [C05T02](./1.4%20議價額度查詢.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -1029,9 +1029,9 @@
 
 ---
 
-<a name="table-76"></a>
+<a name="c05t03"></a>
 
-### 表 76
+### [C05T03](./1.4%20議價額度查詢.md)
 
 | 目標欄位 | 欄位對應規則 | 說明 | 備註 |
 |---|---|---|---|
@@ -1051,9 +1051,9 @@
 
 ---
 
-<a name="table-77"></a>
+<a name="c10t01"></a>
 
-### 表 77
+### [C10T01](./2.4%20外部系統api.md)
 
 | 介接系統 | API NAME | 說明 | 備註 |
 |---|---|---|---|

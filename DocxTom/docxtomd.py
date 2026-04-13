@@ -145,9 +145,12 @@ def process_and_split_docx(file_path, output_dir="output"):
     current_indent_stack = []
     
     # Table extraction
-    table_registry = []  # (anchor_id, label, table_lines)
-    table_counter = 0
+    table_registry = []  # (anchor_id, label, table_lines, src_chapter_file)
+    chapter_counter = 0       # increments at each level-2 split
+    chapter_table_counter = 0 # resets at each level-2 split
     last_text = ""
+    last_was_list = False  # True if the last emitted line was a list item
+    current_chapter_file = "Untitled.md"
     
     current_chapter_title = "Untitled"
     current_lines = []
@@ -171,19 +174,22 @@ def process_and_split_docx(file_path, output_dir="output"):
             table_lines = process_table(table)
             
             # Register table and emit a hyperlink instead of inline table
-            table_counter += 1
-            anchor = f"table-{table_counter}"
+            chapter_table_counter += 1
+            anchor = f"c{chapter_counter:02d}t{chapter_table_counter:02d}"
+            id_label = f"C{chapter_counter:02d}T{chapter_table_counter:02d}"
             # Use the preceding paragraph as label only if it starts with 表格
-            label = last_text if re.match(r'^(表格|TABLE|Table)\s', last_text) else f"表 {table_counter}"
-            table_registry.append((anchor, label, table_lines))
+            desc = last_text if re.match(r'^(表格|TABLE|Table)[\s　]', last_text) else ""
+            display_label = f"{id_label} {desc}".strip() if desc else id_label
+            table_registry.append((anchor, display_label, table_lines, current_chapter_file))
             
-            # Emit link; indent to match current list level
-            if current_indent_stack:
+            # Emit link as a list item; only inherit deep indent when directly inside a list context
+            if last_was_list and current_indent_stack:
                 visual_level = len(current_indent_stack)
                 ind = "    " * visual_level
             else:
                 ind = ""
-            current_lines.append(f"{ind}> 📋 [**{label}**](./tables.md#{anchor})")
+            current_lines.append(f"{ind}- 📋 [**{display_label}**](./tables.md#{anchor})")
+            last_was_list = True
             # DO NOT clear active_lists or current_indent_stack so sequence is not broken
             continue
             
@@ -280,9 +286,15 @@ def process_and_split_docx(file_path, output_dir="output"):
         if level == 2 or is_h1:
             save_chapter() 
             chapter_index += 1
+            chapter_counter += 1
+            chapter_table_counter = 0  # reset table counter per chapter
             current_chapter_title = f"{heading_prefix}{text}".strip()
-            # active_lists could be cleared on file boundary if needed
+            safe = re.sub(r'[\\/*?:"<>|]', "", current_chapter_title).strip()
+            current_chapter_file = f"{safe}.md" if safe else f"Chapter_{chapter_index}.md"
             active_lists.clear()
+            current_indent_stack = []
+        elif level is not None:
+            # Clear indent stack on any heading (e.g. ### or ####)
             current_indent_stack = []
 
         if level is not None and not is_list:
@@ -336,8 +348,10 @@ def process_and_split_docx(file_path, output_dir="output"):
             
             # Use standard markdown bullet and bold the visual counter to avoid code block parsing
             current_lines.append(f"{indent}- **{bullet}** {text}")
+            last_was_list = True
         else:
             current_lines.append(text)
+            last_was_list = False
         
         last_text = text
             
@@ -348,9 +362,11 @@ def process_and_split_docx(file_path, output_dir="output"):
         tables_path = os.path.join(output_dir, "tables.md")
         with open(tables_path, 'w', encoding='utf-8') as f:
             f.write("# 表格索引\n\n")
-            for anchor, label, tbl_lines in table_registry:
+            for anchor, label, tbl_lines, src_file in table_registry:
                 f.write(f'<a name="{anchor}"></a>\n\n')
-                f.write(f"### {label}\n\n")
+                # URL-encode spaces so the hyperlink works in all Markdown renderers
+                encoded_file = src_file.replace(' ', '%20')
+                f.write(f"### [{label}](./{encoded_file})\n\n")
                 f.write("\n".join(tbl_lines))
                 f.write("\n\n---\n\n")
         print(f"Saved: {tables_path}")
